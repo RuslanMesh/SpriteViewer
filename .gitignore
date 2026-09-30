@@ -1,0 +1,17 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build artifacts
+build/
+dist/
+*.spec
+
+# Local runtime configs & logs
+viewer_config.json
+*.log
+
+# IDE files
+.vscode/
+.idea/
