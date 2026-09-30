@@ -59,12 +59,14 @@ Ready-to-use standalone Windows binaries require no Python installation:
 
 
 ## 🔨 Building Executable
-To package into a single standalone .exe:
 
-    ```bash
-    pip install pyinstaller
-    python -m PyInstaller --noconsole --onefile --name "SpriteViewer" main.py
-    ```
+To package into a single standalone `.exe`:
+
+```bash
+pip install pyinstaller
+python -m PyInstaller --noconsole --onefile --name "SpriteViewer" main.py
+```
+
 The compiled binary will be placed in the dist/ directory.
 
 ## 📄 License
